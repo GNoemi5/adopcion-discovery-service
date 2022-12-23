@@ -54,5 +54,6 @@ jobs:
         with:
           app-name: 'adopcion-discovery-service'
           slot-name: 'Production'
+          path: build\libs\*.jar
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A4844E6B7E124A8F8C1A8809A162FBA3 }}
           package: 'discovery-service-0.0.1-SNAPSHOT.jar'
