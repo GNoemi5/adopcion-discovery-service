@@ -56,4 +56,4 @@ jobs:
           path: build\libs\*.jar
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A4844E6B7E124A8F8C1A8809A162FBA3 }}
-          package: '*.jar'
+          package: '*SNAPSHOT.jar'
